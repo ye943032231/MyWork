@@ -1,0 +1,7 @@
+
+[
+  {"name":"衣服一","description":"这是衣服品种一的详细信息介绍","category":"衣服类别一","price":100,"imgsrc":"images/TB1_50x50.jpg"},
+  {"name":"衣服二","description":"这是衣服品种二的详细信息介绍","category":"衣服类别二","price":110,"imgsrc":"images/TB2_50x50.jpg"},
+  {"name":"衣服三","description":"这是衣服品种三的详细信息介绍","category":"衣服类别三","price":200,"imgsrc":"images/TB3_50x50.jpg"},
+  {"name":"衣服四","description":"这是衣服品种四的详细信息介绍","category":"衣服类别四","price":250,"imgsrc":"images/TB4_50x50.jpg"}
+]
