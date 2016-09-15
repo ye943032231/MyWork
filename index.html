@@ -1,57 +1,100 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
+<html>
+<head lang="en">
     <meta charset="UTF-8">
-    <title>Mywork by ye943032231</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Mywork</h1>
-      <h2 class="project-tagline"></h2>
-      <a href="https://github.com/ye943032231/MyWork" class="btn">View on GitHub</a>
-      <a href="https://github.com/ye943032231/MyWork/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/ye943032231/MyWork/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="css/animations.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <script src="js/zepto.min.js" type="text/javascript"></script>
+    <script src="js/touch.js" type="text/javascript"></script>
+    <script src="js/index.js" type="text/javascript"></script>
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+    <title></title>
+    <style>
+        *{margin: 0;padding: 0;}
+        html,body{width: 100%;height: 100%;}
+        .hide{display: none;}
+        .page{width: 100%;height: 100%;position: absolute;left:0;top:0;}
+        .page img{position: absolute;left: 0;top:0;}
+        .wrap{width: 100%;height: 100%;position: absolute;}
+        .page .top{left: 50%;top: 85%;width: 40px;margin-left: -20px;}
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+        .page-1-1{background: url("images/page1bg.png") no-repeat left top;background-size: cover;}
+        .page-1-1 .img1{width: 100%;bottom: 0;}
+        .page-1-1 .img2{width: 17.33%;height: 10.56%;right:0;margin: 0 auto;top: 75.11%;}
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
+        .page-2-1{background: url("images/page2bg.png") no-repeat left top;background-size: cover;}
+        .page-2-1 .img1{width: 40.26%;height:77.43%;left: 59.37%;top: 10.64%;}
+        .page-2-1 .img2{width: 53.46%;height:31.7%;top: 54%;left:6.26%;}
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
+        .page-3-1{background: url("images/page3bg.png") no-repeat left top;background-size: cover;}
+        .page-3-1 .img1{width: 84.26%;height:19.19%;top: 13.56%;left:7.73%;}
+        .page-3-1 .img2{width: 84.26%;height:16.34%;top: 44.45%;left:7.73%;}
+        .page-3-1 .img3{width: 84.26%;height:16.34%;top: 63.71%;left:7.73%;}
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+        .page-4-1{background: url("images/cba4-bg.png") no-repeat left top;background-size: cover;}
+        .page-4-1 .img1{width: 74.667%;left: 12.667%;top:17.466%;}
+        .page-4-1 .img2{width: 48%;left: 24.93%;top:79.01%;}
+        .page-4-1 .img3{width: 48%;left: 24.93%;top:86.21%;}
+        .page-5-1{background: url("images/cba5-bg.png") no-repeat left top;background-size: cover;}
+        .page-5-1 .img1{width: 50.13%;left: 25.067%;top: 67.54%;}
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+        .page-6-1{background: #b3cdfe;background-size: cover;}
+        .page-6-1 .img1{width: 120%;left: -10%;top: 0;}
+        .page-6-1 .img2{width: 37.467%;left: 6.4%;top: 73.91%;}
+        .page-6-1 .img3{width: 59.333%;left: 37.2%;top: 6.12%;}
+    </style>
+</head>
+<body>
+    <div class="page page-1-1">
+        <div class="wrap">
+            <img src="images/page1d.png" class="img1 pt-page-moveFromTop pt-page-delay500 tada">
+            <img src="images/chayue.png" class="img2 pt-page-moveFromTop pt-page-delay500">
+            <img src="images/top.png" class="top pt-page-moveIconUp">
+        </div>
+    </div>
 
-<p>You can @mention a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+    <div class="page page-2-1 hide">
+        <div class="wrap">
+            <img src="images/page2man.png" class="img1 pt-page-moveFromRightFade pt-page-delay500">
+            <img src="images/page2text.png" class="img2 pt-page-moveFromLeftFade pt-page-delay1000">
+            <img src="images/top.png" class="top pt-page-moveIconUp">
+        </div>
+    </div>
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
+    <div class="page page-3-1 hide">
+        <div class="wrap">
+            <img src="images/page3t1.png" class="img1 pt-page-moveFromTopFade pt-page-delay500">
+            <img src="images/page3t2.png" class="img2 pt-page-moveFromLeftFade pt-page-delay500">
+            <img src="images/page3t3.png" class="img3 pt-page-moveFromRightFade pt-page-delay500">
+            <img src="images/top.png" class="top pt-page-moveIconUp">
+        </div>
+    </div>
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+    <div class="page page-4-1 hide">
+        <div class="wrap">
+            <img src="images/cba4-texts.png" class="img1 pt-page-moveFromTop bounceIn">
+            <img src="images/cba4-btn.png" class="img2 pt-page-moveFromTop fadeInLeft pt-page-delay500">
+            <img src="images/cba4-btns.png" class="img3 pt-page-moveFromTop fadeInRight pt-page-delay500">
+            <img src="images/top.png" class="top pt-page-moveIconUp">
+        </div>
+    </div>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/ye943032231/MyWork">Mywork</a> is maintained by <a href="https://github.com/ye943032231">ye943032231</a>.</span>
+    <div class="page page-5-1 hide">
+        <div class="wrap">
+            <img src="images/cba5-text.png" class="img1 pt-page-moveFromTop pt-page-delay200 bounceInUp">
+            <img src="images/top.png" class="top pt-page-moveIconUp">
+        </div>
+    </div>
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+    <div class="page page-6-1 hide">
+        <div class="wrap">
+            <img src="images/cba6-bg.png" class="img1 pt-page-moveFromTop pt-page-delay500 zoomIn">
+            <img src="images/cba6-texts.png" class="img3 pt-page-moveFromTop pt-page-delay1000 fadeInRight">
+            <img src="images/cba6-text.png" class="img2 pt-page-moveFromTop pt-page-delay1500 fadeInLeft">
 
-    </section>
-
-  
-  </body>
+        </div>
+    </div>
+</body>
 </html>
