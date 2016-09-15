@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+a{color:#000;}
+header{height:200px;}
+.header-inner{width:1807px;margin:0 auto;padding-left:96px;}
+.header-inner .logo{padding-top:86px;width:151px;float:left;margin-right:380px;}
+nav li{float:left;width:90px;padding-top:75px;text-align:center;font-weight:bold;height:32px;line-height:32px;}
+nav li:hover a{color:#fff;background:#000;width:80px;display:inline-block;height:32px;text-align:center;line-height:32px;}
+.header-inner .denglu{width:321px;float:left;margin-left:400px;padding-top:80px;}
+.header-inner .denglu .anniu-one{float:left;margin-right:17px;width:82px;height:32px;line-height:32px;background-color:#e10000;border-radius:3px;font-size:14px;text-align:center;}
+.header-inner .denglu .anniu-one a{color:#fff;width:82px;height:32px;display:inline-block;border-radius:3px;}
+.header-inner .denglu .anniu-one a:hover{background:#000;}
+.header-inner .denglu p{float:left;width:163px;font-size:14px;height:32px;line-height:32px;padding-left:30px;background:url(../images/index-icon_03.jpg) no-repeat left center, url(../images/index-icon_05.jpg) no-repeat 96px center;}
+.header-inner .denglu p span{padding-left:11px;padding-right:45px;}
+.header-inner .denglu p a{color:#2e2e2e;}
+.header-inner .denglu .anniu-two{float:left;width:28px;font-size:14px;height:28px;line-height:28px;background-color:#e10000;border-radius:14px;text-align:center;}
+.header-inner .denglu .anniu-two a{color:#fff;width:28px;height:28px;border-radius:14px;display:inline-block;}
+.header-inner .denglu .anniu-two a:hover{box-shadow:0px 0px 28px rgba(255,153,6,0.8) inset;}
+
+
+section{height:;}
+section .inner{width:1180px;margin:0 auto;}
+section .inner .banner-top{height:670px;width:1180px;margin-bottom:10px;}
+section .inner .banner-bottom{height:218px;}
+section .inner .banner-bottom .banner-box{width:386px;height:218px;float:left;}
+section .inner .title{height:117px;padding-top:57px;text-align:center;}
+section .inner .title h5{line-height:20px;font-style:oblique;font-size:14px;}
+section .inner .title h4{line-height:31px;padding-top:17px;font-weight:normal;font-size:16px;position:relative;}
+section .inner .title h4:before{content:"";width:20px;border:1px solid #ccc;position:absolute;left:518px;top:31px;}
+section .inner .title h4:after{content:"";width:20px;border:1px solid #ccc;position:absolute;left:632px;top:31px;}
+
+section .inner .main-box{height:1024px;padding-left:16px;padding-right:20px;}
+section .inner .main-pic{width:360px;height:512px;float:left;margin-right:32px;}
+section .inner .main-pic .bianda{width:360px;height:379px;overflow:hidden;}
+section .inner .main-pic .donghua{transition:all 1s;width:100%;}
+section .inner .main-pic .donghua:hover{transform:scale(1.1);}
+section .inner .main-box p{width:314px;line-height:22px;height:44px;float:left;}
+section .inner .main-box .color{float:right;width:46px;height:34px;padding-top:10px;}
+section .inner .main-box .color img{margin-right:3px;}
+section .inner .main-box h4{font-weight:normal;line-height:35px;}
+section .inner .main-box h4 span{margin-left:220px;}
+
+section .inner .main-two{height:740px;text-align:center;}
+section .inner .main-two img{padding-bottom:50px;padding-top:40px;}
+section .inner .main-two .main-font1{width:340px;height:376px;background:#f3f3f3;float:left;padding-left:60px;padding-top:74px;text-align:left;}
+section .inner .main-two .main-font1 h4{height:23px;padding-bottom:86px;position:relative;}
+section .inner .main-two .main-font1 h4:before{content:"";width:18px;border:1px solid #3d3d3d;position:absolute;left:0px;top:52px;}
+section .inner .main-two .main-font1 p{line-height:21px;padding-bottom:93px;}
+section .inner .main-two .main-font1 .dingzhi a{width:100px;height:35px;background-color:#000;display:block;color:#fff;text-align:center;line-height:35px;}
+section .inner .main-two .main-font2{width:360px;height:450px;background:url(../images/main-pic_077.jpg) no-repeat;float:left;margin-right:60px;}
+section .inner .main-two .main-font3{width:360px;height:366px;background:#3d3d3d;float:left;color:#fff;padding-top:84px;}
+section .inner .main-two .main-font3 h4{line-height:23px;font-style:oblique;font-size:18px;}
+section .inner .main-two .main-font3 h5{line-height:23px;font-size:16px;padding-bottom:70px;}
+section .inner .main-two .main-font3 p{line-height:20px;padding-bottom:32px;}
+section .inner .main-two .main-font3 span{line-height:20px;}
+section .inner .main-two .main-font3 .dingzhi a{width:100px;height:35px;background-color:#fff;display:block;color:#000;text-align:center;line-height:35px;margin-top:49px;margin-left:130px;}
+
+section .inner .main-four{height:846px;padding-top:90px;text-align:center;}
+section .inner .main-four img{padding-bottom:50px;}
+section .inner .main-four .left{width:600px;float:left;padding-left:40px;text-align:left;}
+section .inner .main-four .left h1{font-size:50px;line-height:50px;position:relative;}
+section .inner .main-four .left h1:before{content:"";width:20px;border:3px solid #000;position:absolute;left:0px;top:114px;}
+section .inner .main-four .left h2{font-size:50px;line-height:50px;}
+section .inner .main-four .left p{font-size:18px;font-weight:bold;line-height:20px;margin-bottom:30px;}
+section .inner .main-four .left span{font-size:14px;font-weight:bold;margin-top:89px;display:inline-block;}
+section .inner .main-four .right{width:540px;float:left;background:url(../images/index-pic_23.jpg) no-repeat left top;padding-top:330px;text-align:left;}
+section .inner .main-four .right h3{position:relative;padding-bottom:35px;}
+section .inner .main-four .right h3:before{content:"";width:20px;border:3px solid #000;position:absolute;left:0px;top:-60px;}
+section .inner .main-four .right .qiu{width:186px;height:50px;position:relative;padding-bottom:81px;}
+section .inner .main-four .right .qiu:before{content:"";width:122px;border:3px solid #000;position:absolute;left:0px;bottom:30px;}
+section .inner .main-four .right .qiu .black{width:50px;height:50px;background:#383838;float:left;margin-right:18px;border-radius:25px;}
+section .inner .main-four .right .qiu .red{width:50px;height:50px;background:#df000d;float:left;border-radius:25px;}
+section .inner .main-four .right h4{font-size:20px;}
+section .inner .main-four .right h1{font-size:50px;}

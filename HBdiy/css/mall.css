@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+a{color:#000;}
+header{height:133px;background:#f4f5f6;}
+.header-inner{width:1807px;margin:0 auto;padding-left:96px;}
+.header-inner .logo{padding-top:86px;width:151px;float:left;margin-right:380px;}
+nav li{float:left;width:90px;padding-top:80px;text-align:center;font-weight:bold;height:32px;line-height:32px;}
+nav li:hover a{color:#fff;background:#000;width:80px;display:inline-block;height:32px;text-align:center;line-height:32px;}
+.header-inner .denglu{width:321px;float:left;margin-left:400px;padding-top:80px;}
+.header-inner .denglu .anniu-one{float:left;margin-right:17px;width:82px;height:32px;line-height:32px;background-color:#e10000;border-radius:3px;font-size:14px;text-align:center;}
+.header-inner .denglu .anniu-one a{color:#fff;width:82px;height:32px;display:inline-block;border-radius:3px;}
+.header-inner .denglu .anniu-one a:hover{background:#000;}
+.header-inner .denglu p{float:left;width:163px;font-size:14px;height:32px;line-height:32px;padding-left:30px;background:url(../images/index-icon_03.jpg) no-repeat left center, url(../images/index-icon_05.jpg) no-repeat 96px center;}
+.header-inner .denglu p span{padding-left:11px;padding-right:45px;}
+.header-inner .denglu p a{color:#2e2e2e;}
+.header-inner .denglu .anniu-two{float:left;width:28px;font-size:14px;height:28px;line-height:28px;background-color:#e10000;border-radius:14px;text-align:center;}
+.header-inner .denglu .anniu-two a{color:#fff;width:28px;height:28px;border-radius:14px;display:inline-block;}
+.header-inner .denglu .anniu-two a:hover{box-shadow:0px 0px 28px rgba(255,153,6,0.8) inset;}
+
+.banner{height:767px;background:#f4f5f6;}
+.banner-inner{width:1180px;margin:0 auto;}
+.banner-inner .one{z-index:3;}
+.banner-inner .two{z-index:4;}
+.banner-inner .three{z-index:5;}
