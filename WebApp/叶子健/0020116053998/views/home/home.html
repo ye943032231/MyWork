@@ -1,0 +1,39 @@
+<ion-view view-title="家" hide-nav-bar="true">
+    <div class="bar bar-header bar-positive item-input-inset">
+        <div class="button button-clear icon-right ion-android-arrow-dropdown">广州</div>
+        <label class="item-input-wrapper">
+            <i class="icon ion-search"></i>
+            <input type="text" placeholder="search">
+        </label>
+        <div class="button button-clear">搜索</div>
+    </div>
+    <ion-nav-buttons>
+        <button class="button button-clear icon ion-navicon" menu-toggle=""></button>
+    </ion-nav-buttons>
+    <ion-content style="margin-top: 43px">
+        <ion-slide-box auto-play="true" slide-interval="2000"
+                       does-continue="true" active-slide="data.page"
+                       on-slide-changed="slideChanged(index)"
+                       pager-click="pagerClick(index)">
+            <ion-slide>
+                <div class="box"><img src="images/bg1.jpg"></div>
+            </ion-slide>
+            <ion-slide>
+                <div class="box"><img src="images/bg2.jpg"></div>
+            </ion-slide>
+            <ion-slide>
+                <div class="box"><img src="images/bg3.jpg"></div>
+            </ion-slide>
+        </ion-slide-box>
+        <ion-refresher pulling-text="下拉刷新" refreshing-text="努力加载中" pulling-icon="icon ion-happy positive" on-refresh="refresh()">
+        </ion-refresher>
+        <ion-list>
+            <ion-item ng-repeat="product in products" class="item-avatar item-text-wrap">
+                <img ng-src="{{product.imgsrc}}"/>
+                <h2>{{product.title}}</h2>
+                <p>{{product.desc}}</p>
+            </ion-item>
+            <ion-infinite-scroll on-infinite="loadMore()" immediate-check="false"></ion-infinite-scroll>
+        </ion-list>
+    </ion-content>
+</ion-view>

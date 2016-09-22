@@ -1,0 +1,22 @@
+.box,.box img{
+    width:100%;
+    height:100%;
+}
+.ding{
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+    z-index: 10;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    display: block;
+    background: white;
+}
+.bg{
+    background: -webkit-linear-gradient(top, rgb(13, 104, 188), rgb(114, 173, 224))
+}
+
+img{
+    display: block;
+}

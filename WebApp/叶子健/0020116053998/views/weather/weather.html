@@ -1,0 +1,29 @@
+<ion-view view-title="广州天气">
+    <ion-nav-buttons>
+        <button class="button button-clear icon ion-navicon" menu-toggle=""></button>
+    </ion-nav-buttons>
+    <ion-content class="bg">
+        <div class="list">
+
+            <div class="item">
+                即时天气:{{now_month+"月"}}{{weather.data.forecast[0].date}},{{weather.data.forecast[0].type}},{{weather.data.wendu+"℃"}}
+            </div>
+
+            <div class="item">
+                最高温度:{{weather.data.forecast[0].high}}
+            </div>
+
+            <div class="item">
+                最低温度:{{weather.data.forecast[0].low}}
+            </div>
+
+            <div class="item">
+                风力:{{weather.data.forecast[0].fengli}}<br>风向:{{weather.data.forecast[0].fengxiang}}
+            </div>
+
+            <div class="item item-text-wrap">
+                感冒指数:{{weather.data.ganmao}}
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

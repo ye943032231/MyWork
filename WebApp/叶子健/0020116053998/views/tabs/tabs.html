@@ -1,0 +1,31 @@
+<ion-tabs class="tabs-positive tabs-icon-top">
+    <ion-tab title="首页" icon-on="ion-home"
+             icon-off="ion-home" ui-sref="tabs.home">
+        <ion-nav-view name="tab-home">
+            <a class="button button-icon ion-arrow-up-a ding" ng-click="toTop()"></a>
+        </ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="附近" icon-on="ion-location"
+             icon-off="ion-location" ui-sref="tabs.location">
+        <ion-nav-view name="tab-location">
+            <a class="button button-icon ion-arrow-up-a ding" ng-click="toTop()"></a>
+        </ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="天气" icon-on="ion-ios-partlysunny"
+             icon-off="ion-ios-partlysunny" ui-sref="tabs.weather">
+        <ion-nav-view name="tab-weather"></ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="账号" icon-on="ion-person"
+             icon-off="ion-person" ui-sref="tabs.person">
+        <ion-nav-view name="tab-person"></ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="关于我们" icon-on="ion-ios-people"
+             icon-off="ion-ios-people" ui-sref="tabs.about">
+        <ion-nav-view name="tab-about"></ion-nav-view>
+    </ion-tab>
+
+</ion-tabs>
