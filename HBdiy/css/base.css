@@ -1,0 +1,35 @@
+@charset "utf-8";
+@charset "utf-8";
+/* CSS Document */
+body,div,header,nav,footer,h1,h2,h3,h4,h5,h6,p,ul,li,form,input,textarea,span,img,select,option{
+	margin:0;
+	padding:0;}
+li{
+	list-style:none;}
+a{
+	text-decoration:none;}
+img{
+	border:0;}
+input{border:0;
+      outline:none;}
+.clear{
+	 clear:both;
+	 float:none !important;}
+/* CSS Document */
+
+footer{height:156px;background:#000;}
+footer .inner{width:1180px;margin:0 auto;}
+footer .footer-left{width;float:left;color:#fff;margin-right:137px;}
+footer .footer-left li{font-size:14px;line-height:156px;float:left;margin-right:24px;}
+footer .footer-left li a{color:#fff;}
+footer .footer-right{width:500px;color:#fff;float:left;}
+footer .footer-right p{font-size:14px;line-height:19px;padding-top:55px;letter-spacing:1px;}
+
+
+.runter{position:fixed;z-index:99;right:250px;bottom:20px;}
+.kefu{border:1px solid #000;width:88px;height:86px;background:#fff;}
+.kefu h4{font-weight:normal;width:83px;font-size:16px;text-align:right;padding-right:5px;background:#fff;}
+.kefu h3{font-weight:normal;width:78px;text-align:right;padding-right:5px;padding-left:5px;position:relative;background:#fff;}
+.kefu h3:before{content:"";width:78px;border:1px solid #000;position:absolute;left:5px;top:30px;}
+.kefu p{text-align:center;padding-top:15px;font-size:14px;background:#fff;}
+.top{border:1px solid #000;width:88px;margin-top:15px;background:#fff;}

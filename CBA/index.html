@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="css/animations.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <script src="js/zepto.min.js" type="text/javascript"></script>
+    <script src="js/touch.js" type="text/javascript"></script>
+    <script src="js/index.js" type="text/javascript"></script>
+
+    <title></title>
+    <style>
+        *{margin: 0;padding: 0;}
+        html,body{width: 100%;height: 100%;}
+        .hide{display: none;}
+        .page{width: 100%;height: 100%;position: absolute;left:0;top:0;}
+        .page img{position: absolute;left: 0;top:0;}
+        .wrap{width: 100%;height: 100%;position: absolute;}
+        .page .top{left: 50%;top: 85%;width: 40px;margin-left: -20px;}
+
+        .page-1-1{background: url("images/page1bg.png") no-repeat left top;background-size: cover;}
+        .page-1-1 .img1{width: 100%;bottom: 0;}
+        .page-1-1 .img2{width: 17.33%;height: 10.56%;right:0;margin: 0 auto;top: 75.11%;}
+
+
+        .page-2-1{background: url("images/page2bg.png") no-repeat left top;background-size: cover;}
+        .page-2-1 .img1{width: 40.26%;height:77.43%;left: 59.37%;top: 10.64%;}
+        .page-2-1 .img2{width: 53.46%;height:31.7%;top: 54%;left:6.26%;}
+
+        .page-3-1{background: url("images/page3bg.png") no-repeat left top;background-size: cover;}
+        .page-3-1 .img1{width: 84.26%;height:19.19%;top: 13.56%;left:7.73%;}
+        .page-3-1 .img2{width: 84.26%;height:16.34%;top: 44.45%;left:7.73%;}
+        .page-3-1 .img3{width: 84.26%;height:16.34%;top: 63.71%;left:7.73%;}
+
+        .page-4-1{background: url("images/cba4-bg.png") no-repeat left top;background-size: cover;}
+        .page-4-1 .img1{width: 74.667%;left: 12.667%;top:17.466%;}
+        .page-4-1 .img2{width: 48%;left: 24.93%;top:79.01%;}
+        .page-4-1 .img3{width: 48%;left: 24.93%;top:86.21%;}
+        .page-5-1{background: url("images/cba5-bg.png") no-repeat left top;background-size: cover;}
+        .page-5-1 .img1{width: 50.13%;left: 25.067%;top: 67.54%;}
+
+        .page-6-1{background: #b3cdfe;background-size: cover;}
+        .page-6-1 .img1{width: 120%;left: -10%;top: 0;}
+        .page-6-1 .img2{width: 37.467%;left: 6.4%;top: 73.91%;}
+        .page-6-1 .img3{width: 59.333%;left: 37.2%;top: 6.12%;}
+    </style>
+</head>
+<body>
+    <div class="page page-1-1">
+        <div class="wrap">
+            <img src="images/page1d.png" class="img1 pt-page-moveFromTop pt-page-delay500 tada">
+            <img src="images/chayue.png" class="img2 pt-page-moveFromTop pt-page-delay500">
+            <img src="images/top.png" class="top pt-page-moveIconUp">
+        </div>
+    </div>
+
+    <div class="page page-2-1 hide">
+        <div class="wrap">
+            <img src="images/page2man.png" class="img1 pt-page-moveFromRightFade pt-page-delay500">
+            <img src="images/page2text.png" class="img2 pt-page-moveFromLeftFade pt-page-delay1000">
+            <img src="images/top.png" class="top pt-page-moveIconUp">
+        </div>
+    </div>
+
+    <div class="page page-3-1 hide">
+        <div class="wrap">
+            <img src="images/page3t1.png" class="img1 pt-page-moveFromTopFade pt-page-delay500">
+            <img src="images/page3t2.png" class="img2 pt-page-moveFromLeftFade pt-page-delay500">
+            <img src="images/page3t3.png" class="img3 pt-page-moveFromRightFade pt-page-delay500">
+            <img src="images/top.png" class="top pt-page-moveIconUp">
+        </div>
+    </div>
+
+    <div class="page page-4-1 hide">
+        <div class="wrap">
+            <img src="images/cba4-texts.png" class="img1 pt-page-moveFromTop bounceIn">
+            <img src="images/cba4-btn.png" class="img2 pt-page-moveFromTop fadeInLeft pt-page-delay500">
+            <img src="images/cba4-btns.png" class="img3 pt-page-moveFromTop fadeInRight pt-page-delay500">
+            <img src="images/top.png" class="top pt-page-moveIconUp">
+        </div>
+    </div>
+
+    <div class="page page-5-1 hide">
+        <div class="wrap">
+            <img src="images/cba5-text.png" class="img1 pt-page-moveFromTop pt-page-delay200 bounceInUp">
+            <img src="images/top.png" class="top pt-page-moveIconUp">
+        </div>
+    </div>
+
+    <div class="page page-6-1 hide">
+        <div class="wrap">
+            <img src="images/cba6-bg.png" class="img1 pt-page-moveFromTop pt-page-delay500 zoomIn">
+            <img src="images/cba6-texts.png" class="img3 pt-page-moveFromTop pt-page-delay1000 fadeInRight">
+            <img src="images/cba6-text.png" class="img2 pt-page-moveFromTop pt-page-delay1500 fadeInLeft">
+
+        </div>
+    </div>
+</body>
+</html>
