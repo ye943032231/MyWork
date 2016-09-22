@@ -1,0 +1,23 @@
+<ion-view>
+<div style="height:100%">
+
+    <div class="cgtop_header">
+        <span ui-sref="tab.socCGTop"><a><i class="ion-chevron-left"></i></a>&nbsp;CGTop</span>
+    </div>
+    <div class="cgtop_main">
+        <img src="images/CGTOP_video.png">
+        <a class="cgtop_play" ng-click="topOff()"><img src="images/vioce_03.png" alt="无法显示"/></a>
+    </div>
+    <div class="cgtop_bot">
+        <h2>创意在哪里？</h2>
+        <i>ˉˉˉˉˉˉˉˉˉˉˉ</i>
+        <p>关注创意领域的实践和动态。在这里，您既可体验鲜活而精彩的创意案例，聆听专家对创意难点问题的解答，又可掌握实用工具，并紧扣前沿，与广大经理人和精英切磋创意之道。</p>
+    </div>
+    <div class="cgtop_mask" ng-show="alertOff"></div>
+    <div class="cgtop_alert" ng-show="alertOff">
+        <p>是否使用流量播放视频</p>
+        <h4><button ng-click="topOff()">取消</button>|<button ui-sref="videoplay" ng-click="topOff()">确定</button></h4>
+    </div>
+</div>
+</ion-view>
+a

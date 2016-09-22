@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,div,ul,li,h1,h2,h3,h4,h5,h6,p,input,a,img,dl,dt,dd,span,form,select{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+input,textarea,img{border:0;display:block;}
+input,button,select{border:0;background:0;outline:none;}
+button{cursor: pointer;}
+html,body{font-size:62.5%;font-family:"微软雅黑";}
+i{font-style:normal;}
+
+.clearfix:after{
+	content:"";
+	display:block;
+	height:0;
+	clear:both;
+	font-size:0;
+	*zoom:1;
+	}
+@media screen and (min-width:580px) {
+	html{font-size:87.5%;}
+}
+@media screen and (min-width:760px){
+	html{font-size:100%;}
+}
+@media screen and (min-width:980px){
+	html{font-size:125%;}
+}
+.dispear {display: none}
+/*.main .border1{background:#fff;width:94%;position:absolute;height:50.8rem;left:3.08%;top:10.86rem;border:5px solid #d2d6e0;border-left:none;border-bottom:none;border-radius: 1.2rem 1.2rem 0 0;}*/

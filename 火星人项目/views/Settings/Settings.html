@@ -1,0 +1,23 @@
+﻿<ion-view>
+    <div class="Settings-header"><span ui-sref="tab.home"><a><i class="ion-chevron-left"></i></a>&nbsp;设置</span></div>
+    <ul class="Settings-ul">
+        <li class="Settings-portrait">头像<img src="images/设置_07.png" ng-click="topOff()"></li>
+        <li style="border-bottom: 0.1rem solid #e1e1e1" ui-sref="password">修改密码</li>
+        <li class="Settings-inform">消息通知<div class="Settings-bg"><img src="images/设置_11.png"></div></li>
+        <li ng-click="escOff()">退出当前账号</li>
+        <li class="Settings-upgrade"><p>升级<img src="images/设置_15.png"></p><span style="float: right;font-size: 1.2rem">v.1.0</span></li>
+    </ul>
+    <div>
+        <div class="popup_mask" ng-show="alertOff"></div>
+        <dl class="popup_alert" ng-show="alertOff">
+            <dt>修改头像</dt>
+            <dd ng-click="topOff()"><img src="images/设置-选择_03.png">从相册中选择</dd>
+            <dd ng-click="topOff()"><img src="images/设置-选择_07.png">拍照</dd>
+        </dl>
+    </div>
+    <div class="popup_mask" ng-show="user"></div>
+    <div class="cgtop_alert" ng-show="user">
+        <p>是否退出当前账号？</p>
+        <h4><button ng-click="escOff()">取消</button>|<button ui-sref="denglu" ng-click="escOff()">确定</button></h4>
+    </div>
+</ion-view>

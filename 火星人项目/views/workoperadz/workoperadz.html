@@ -1,0 +1,47 @@
+<ion-view>
+    <ion-content>
+<div class="work_opera">
+    <div class="score_share_shadow" ng-show="sd"></div>
+    <div class="score_share2" ng-show="sd" style="position: absolute;
+    top: 8%;
+    left: 14%;
+    z-index: 10;
+    width: 74%;">
+        <img src="images/卡片上_03.png" style="width: 100%;height: 86%">
+        <img src="images/卡片底_03.png" style="width: 100%;height: 16%" ng-click="pic()">
+
+        <h3 ng-click="pic()">取消</h3>
+
+        <h1>分享到</h1>
+
+        <div class="score_share3 clearfix">
+            <ul>
+                <li><img src="images/微信.png"><span>微信好友</span></li>
+                <li><img src="images/新浪.png"><span>新浪微博</span></li>
+                <li><img src="images/朋友圈.png"><span>朋友圈 </span></li>
+                <li><img src="images/连接.png"><span>获取连接</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class=" opera-title">
+        <span ui-sref="workbox" ng-click="pic()"><a><i class="ion-chevron-left"></i></a>&nbsp;京剧故事</span>
+        <div class="dianzan" ng-click="clikeMe()"><a> <img ng-attr-src="{{dianzan}}"></a></div>
+        <div class="share"><a><img src="images/分享_03.png" ng-show="yes" ng-click="pic()"></a></div>
+    </div>
+    <div class="opera-cont clearfix">
+        <span>京剧故事主题图标</span>
+        <div style="float: right;width: 17%;"><img src="images/形状-19-拷贝-4@2x.png">20 </div>
+        <div style="float: right;width: 17%;" ><img src="images/浏览-拷贝-3@2x.png"> 75</div>
+    </div>
+    <div class="opera-cont_pers">
+        <div><img src="images/我的成绩_03.png"></div>
+        <span><i>李雷</i>1502期UI设计师班</span>
+    </div>
+    <div class="opera-conted">
+        <img src="images/图标的图.jpg">
+    </div>
+
+
+</div>
+    </ion-content>
+</ion-view>

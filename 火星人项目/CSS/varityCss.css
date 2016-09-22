@@ -1,0 +1,528 @@
+/*首页*/
+#gg .header {height: 12.6rem;background: url("../images/header.png") no-repeat;left: 0;top: 0;background-size: cover}
+#gg .touxiang img {margin-right: 2rem;float: left;}
+#gg .clearfix:after {content: "\200B";display: block;height: 0;clear: both;font-size: 0;zoom: 1;}
+#gg .touxiang {float: left}
+#gg .touxiang .info {padding-top: 13%;padding-left: 1%;color: white;}
+#gg .tx{width:25%;height: 25%;margin: 13% 3% 0 5%;float: left}
+#gg .tx img{width: 100%;height: 100%}
+#gg .info i {margin-left: 1%;}
+#gg .qiandao {float: right}
+#gg .qiandao img {margin: 3rem 2.6rem 0 0;width: 50%;}
+#gg .boat{margin: 0 1rem;}
+#gg .boat img {width: 100%;margin: 1rem 0 1.6rem 0;}
+#gg .workbox .box_1 {margin-left: 1.7rem;}
+#gg .workbox .box_1 img {float: left;margin-right: 0.5rem;}
+#gg .workbox a {display: block;}
+#gg .workbox .box_1 p {float: left;line-height: 33px;font-size: 16px;}
+#gg .workbox .start {float: right;margin-right: 4%;line-height: 2;}
+#gg .workbox .start i {color: green}
+#gg .workbox {margin: 0 3%;}
+#gg .work_cont img {width: 100%;margin-bottom: 1.6rem;}
+#gg .work_cont a {display: block;float: left;width: 48%;}
+#gg .work_cont span {line-height: 2.7;margin-left: 1rem;font-size: 1.4rem;color: black}
+#gg .work_cont p{line-height: 1.6;margin-left: 1rem;font-size: 1.2rem;color: black}
+#gg .work_cont {padding-top: 22px;}
+.fl {float: left}
+.fr {float: right}
+#gg .home_foot ul {margin-top: 20px;border: 1px solid grey;border-left: none;border-right: none;color: red;}
+#gg .home_foot li {float: left;text-align: center;margin: 2% 11.6%;width: 10%;}
+#gg .home_foot li img {width: 100%;}
+
+
+/*作品盒子*/
+.nav {line-height: 3.4rem;background: green;position: relative;color: white}
+.nav div{position: absolute;width: 6%;height: 61%;top: 34%;right: 7%;}
+.nav div img{width: 100%}
+.work_b {margin: 2% 2%;display: flex;justify-content: space-around;flex-wrap: wrap-reverse;}
+.nav span{margin:0 4%;font:2rem/5.4rem "微软雅黑";}
+.nav span i{color:#fff;}
+.work_b1 {width: 96%;}
+.work_b1 img {width: 100%;height: 100%;display: block}
+.work_b1-1 div {width: 23%}
+.work_b1-1 {width: 93%}
+.work_b1-1 span {display: inherit;line-height: 3rem;font-size: 1rem;padding-bottom: 7%;border-bottom: 1px dashed gray;}
+.work_b1-1 i{font-size: 1.2em;line-height: 2.6rem  }
+.work_b_1{width: 48%;margin-bottom: 5%;}
+.work_b1-1 img {width: 100%;height: 100%;float: left;margin: 16% 10% 7%;}
+
+
+
+
+
+/*李雷京剧作品点赞*/
+.opera-title{height: 4.8rem;background: green;}
+.opera-title span{margin:0 4%;font:2rem/5.4rem "微软雅黑";color: white}
+.opera-title span i{color:#fff;}
+.opera-title .dianzan{width: 6%;float: right;margin-right:1rem;margin-top:1rem}
+.opera-title  img{width: 100%}
+.opera-title .share{width: 6%;float: right;margin-right:2rem;margin-top:1.4rem}
+
+.opera-cont img{float: left;padding-right: 6.5%;}
+.opera-cont span{font-size: 1rem;float: left;margin:1.5rem 0 1.5rem 1.5rem}
+.opera-cont div{margin: 1.6rem 3.5% 0 0.5%;}
+.opera-cont_pers{margin-left:1.5rem;margin-bottom: 1.5rem;}
+.opera-cont_pers div{width: 12%;float: left;}
+.opera-cont_pers img{width: 100%}
+.opera-cont_pers span{line-height: 3.5rem;font-size: 1rem}
+.opera-cont_pers i{margin: 0 1rem}
+.opera-conted{margin-left:1rem;margin-right:1rem;width: 94%}
+.opera-conted img{width: 100%}
+
+/*作品搜索*/
+.worksearch_title{height: 3.5rem;background: green}
+.worksearch_title div{width: 5%;float: left;position: relative;}
+.worksearch_title  div img{width: 100%;position: absolute;top: 15px;left: 134%;z-index: 20;}
+.worksearch_title .text{height: 2.5rem;border-left: none;width: 93%;padding-left: 15%;border-radius: 10px;margin-top: 2%;background: whitesmoke;margin-left: 3%;}
+.search-cont{margin:2.2rem  0 1rem 2.5rem }
+.search-cont h3{font-size: 1.4rem}
+.search-cont ul li{line-height: 2.2rem}
+
+/*助手*/
+/**火星助手-没有问题的界面**/
+.aide-header{height: 5.5rem;background: #19adb9;font-size: 2rem;line-height:5.5rem ;color: #fff;}
+.aide-header span{margin:0 4%;font:2rem/5.4rem "微软雅黑";}
+.aide-header span i{color:#fff;}
+.aide-help{background:#f4f5f6 ;}
+.aide-text{height: 12.5rem;width: 93.888889%;margin-left: 2%;margin-top: 3.6rem;border: 0.05rem solid #d4d4d4;border-radius: 0.5rem;margin-bottom: 2.8rem;resize:none;margin-right: 2%;outline: none;}
+.aide-button{height: 3.4rem;width: 35.833333%;color: #fff;font-size:1.7rem ;background: #9ad7db;border-radius: 1.6rem;margin-left: 31.944444%;margin-bottom: 2.9rem;}
+.aide-p{background: #fff;text-align: center;padding-top: 20%;color: #606060;font-size: 1.7rem;}
+/**火星助手有问题列表**/
+.evaluate-header{height: 5.5rem;background: #19adb9;font-size: 2rem;line-height:5.5rem ;color: #fff;}
+.evaluate-header span{margin:0 4%;font:2rem/5.4rem "微软雅黑";}
+.evaluate-header span i{color:#fff;}
+.evaluate-help{background:#f4f5f6 ;}
+.evaluate-text{height: 12.5rem;width: 93.888889%;margin-left: 2%;margin-top: 3.6rem;border: 0.05rem solid #d4d4d4;border-radius: 0.5rem;margin-bottom: 2.8rem;resize:none;margin-right: 2%;outline: none;}
+.evaluate-button-one{height: 3.4rem;width: 35.833333%;color: #fff;font-size:1.4rem ;background: #9ad7db;border-radius: 1.6rem;margin-left: 31.944444%;margin-bottom: 2.9rem;}
+.evaluate-button-two{width: 56.074766%;height: 2.3rem;background: #19adb9;border-radius: 2.3rem;color: #fff;font-size: 1.2rem;}
+
+.evaluate-list li{height: 7.6rem;line-height: 7.6rem;border-bottom: 0.2rem solid #f4f5f6;text-align: center;position: relative;font-size: 150%;color: #303030;}
+.evaluate-list span{display: block;float: left;width: 33.333333%;font-size: 1.7rem;}
+.evaluate-list i{position: absolute;width: 33.333333%;left: 0;top: 20%;font-size: 80%;text-align: center;}
+/**设置页面**/
+.Settings-header{height: 5.5rem;background: #19adb9;font-size: 2rem;line-height:5.5rem ;color: #fff;}
+.Settings-header span{margin:0 4%;font:2rem/5.4rem "微软雅黑";color:#fff;}
+.Settings-header a{font:2rem/5.4rem "微软雅黑";color:#fff}
+.Settings-ul li{font-size: 1.7rem;padding-left: 4.12% ;height: 6.4rem;line-height: 6.4rem;}
+.Settings-ul .Settings-portrait{height: 7.1rem;line-height: 7.1rem;margin-top: 0.9rem;margin-bottom: 1.65rem;padding-right: 4%;}
+.Settings-ul .Settings-portrait img{float: right;width: 4.85rem;margin-top: 1.3rem;}
+.Settings-ul .Settings-inform{border-bottom: 0.1rem solid #e1e1e1;padding-right: 3.47%;}
+.Settings-ul .Settings-inform img{width: 2.65rem;position: absolute;top: -0.35rem;left: 55.32%;}
+.Settings-ul .Settings-bg{width: 4.7rem;height: 1.9rem; background: #d4f3ea;border-radius: 0.75rem;float: right;margin-top: 2.45rem;position: relative;}
+.Settings-ul .Settings-upgrade{margin-top: 2.2rem;padding-right: 4.5%;}
+.Settings-ul .Settings-upgrade p{float: left;display: inline-block;position: relative;}
+.Settings-ul .Settings-upgrade img{position: absolute;left: 110%;top:2.7rem;width: 1.2rem;  }
+/*选择修改头像*/
+.popup_mask{width:100%;height:100%;background-color:rgba(0,0,0,0.8);position:fixed;top:0;left:0;}
+.popup_alert{width:65.57%;padding-left:8.6%;background:#fff;border-radius:1.8rem;position:absolute;left:13.8%;top:30%;font-size:1.7rem;}
+.popup_alert dt{line-height:2;}
+.popup_alert dd{height:4.5rem;font-size:1.6rem;color:#606060;padding:1rem 0;}
+.popup_alert dd img{display:inline;vertical-align:middle;height:100%;margin-right:4.5%}
+
+/**修改密码**/
+#changepd .password-box{background: #f7f7f7; height: 100%;}
+#changepd .password-header{height: 5.5rem;background: #19adb9;font-size: 2rem;line-height:5.5rem ;color: #fff;margin-bottom: 1rem;}
+#changepd .password-header span{margin:0 4%;font:2rem/5.4rem "微软雅黑";color: white}
+#changepd .password-header span i{color:#fff;}
+#changepd .password-input input{height: 4.9rem !important;width: 63.888888% !important;margin-left: 4.166667% !important;margin-right: 4.166667%;margin-bottom: 1.2rem;border-radius: 0.6rem;position: relative;padding-left:27.777778% !important;}
+#changepd .password-p{color: #606060;font-size: 1.4rem;margin-left: 6.9444444%;}
+#changepd .password-txt{color: #606060;font-size: 1.7rem;position: absolute;left: 8.055556%;top:6rem;line-height: 6rem;}
+#changepd .password-button{height: 4.3rem;background: #19adb9;width: 91.666667%;margin-left: 4.444444%;margin-top: 1.6rem;border-radius: 2rem;color: #fff;font-size: 1.7rem;line-height: 4.3rem;}
+
+
+/*社区CGTOP*/
+.cgtop_header{height:5.2rem;background:#19adb9;color: white}
+.cgtop_header span{margin:0 4%;font:2rem/5.4rem "微软雅黑";}
+.cgtop_header span i{color:#fff;}
+
+
+.cgtop_main{position:relative;width:100%;height:35rem;overflow:hidden;}
+.cgtop_main img{height:100%;}
+.cgtop_main .cgtop_play{display:block;width:18.6%;position:absolute;left:50%;top:50%;margin:-9.3% 0 0 -9.3%}
+.cgtop_main .cgtop_play img{width:100%;}
+
+.cgtop_bot h2{font-size:1.7rem;line-height:2;margin:1rem 0 0 1.2rem;font-weight:normal;}
+.cgtop_bot i{font-size:2.3rem;line-height:0.8;color:#d4d4d4;}
+.cgtop_bot p{font-size:1.4rem;line-height:1.42;color:#606060;margin:0 1.5rem 1rem 1rem;}
+
+.cgtop_mask{width:100%;height:100%;background-color:rgba(0,0,0,0.8);position:fixed;top:0;left:0;}
+.cgtop_alert{width:72.8%;height:33.33%;background:#fff;border-radius:1.8rem;position:absolute;left:13.8%;top:27%;text-align:center;}
+.cgtop_alert p{font-size:1.7rem;position:absolute;left:50%;top:34.2%;line-height:1;transform:translateX(-50%);white-space:nowrap;}
+.cgtop_alert button{width:23.13%;height:100%;margin:0 10%;background:#fff;font-size:100%;font-family:"微软雅黑"}
+.cgtop_alert h4{height:23.58%;color:#d0d0d0;border-top:1px solid #606060;position:absolute;left:0;bottom:0;width:100%}
+
+
+/*社区CGTOP首页*/
+/*socCgTop*/
+.soccgtop_top{background:#19adb9;height:5.5rem;}/*display:-webkit-box;justify-content:space-between;margin:0 auto;*/
+.soccgtop_top li{width:25%;text-align:center;float:left;}
+.soccgtop_top li a{color:#fff;font-size:1.7rem;display:inline-block;line-height:5.25rem;}
+.soccgtop_top li a:active{border-bottom:0.25rem solid #fff;}/*点击后的样式*/
+.soccgtop_main{background:url("../images/CGTOP_bj_02.jpg") no-repeat;background-size:100% 100%;margin-bottom:6rem;}
+.soccgtop_main li{padding:4.5rem 0 4rem;background-color:rgba(0,0,0,0.5);text-align:center;line-height:1.5;height:33.33%;display: block}
+.soccgtop_main li a{color:#fff;font-size:1.75rem;display:inline-block;width:51.38%;height:7.8rem;border:0.2rem solid #fff;}
+.soccgtop_main li p{margin-top:1.2rem;font-size: 1.7rem;}
+.soccgtop_main li span{font-size:1.5rem}
+
+/*社区活动通知-海报创意页面*/
+.at_cont {margin: 0 1rem}
+.an_top {background: #19adb9;height: 5.5rem;position: relative;}
+.an_top span{margin:0 4%;font:2rem/5.4rem "微软雅黑";color: white}
+.an_top span i{color:#fff;}
+.an_share {width: 2rem;right: 8%;top: 28%;position: absolute}
+.an_share img {width: 100%}
+.at_boat {width: 100%}
+.at_boat img {width: 100%}
+.at_desc p {font-size: 1.6rem;margin-bottom: 1rem;margin-left: 1rem;}
+.at_desc h3 {margin-top: 2rem;font-size: 2rem;margin-bottom: 1rem;margin-left: 1rem;}
+.at_local img {vertical-align: middle;margin-right: -3%;}
+.at_local {float: left;margin-left: 1rem;}
+.at_time {float: right;margin-right: 1rem;}
+.at_time img {vertical-align: middle;}
+.at_desc {height: 9rem;border-bottom: 1px solid grey;}
+.at_small_desc p{margin-bottom: 1rem;font-size: 1.5rem;margin-left: 1rem;}
+.at_small_desc h3{margin: 1rem 1rem;font-size: 2rem}
+
+
+/*社区活动通知首页以及活动结束*/
+
+.an_cont_1 {width: 100%;position: relative;}
+.an_cont_1 .an_boat {width: 100%;}
+.an_cont_1 .an_boat img {width: 100%;}
+.an_cont_1 p {font-size: 1.6rem;margin-bottom: 1rem;margin-left: 2rem;}
+.an_cont_1 h3 {margin-top: 2rem;font-size: 2rem;margin-bottom: 1rem;margin-left: 2rem;}
+.an_local img {vertical-align: middle;margin-right: -3%;}
+.an_local {float: left;margin-left: 2rem;}
+.an_time {float: right;margin-right: 6rem;}
+.an_time img {vertical-align: middle;}
+.an_desc{height: 11rem}
+.an_end_shadow {background-color: rgba(0, 0, 0, 0.8);z-index: 1;height: 49%;position: absolute; top: 0;width: 100%;left: 0;}
+/*活动结束样式*/
+.an_end_shadow img{width: 18%;transform: rotate(-30deg);margin: 20% 0 0 74%;}
+
+
+
+/*社区校园通知*/
+.notice_main{padding-left:0.7%;padding-top:0.5rem;margin-bottom:6rem;}
+.notice_main a{display:block;color:#606060;border-bottom:1px solid #eae9e9;padding:2rem 4.2% 1.5rem;line-height:1.5;}
+.notice_main a h2{font-weight:normal;font-size:1.7rem;}
+.notice_main a i{float:right;font-size:1.4rem;}
+.notice_main a span{color:#19adb9;line-height:1;font-size:1.4rem;}
+.notice_main a p{font-size:1.4rem;}
+
+/*email*/
+.Email{background: url("../images/邮件-无邮件提醒.png") no-repeat center 20%;background-size: 50%;height: 100%;color: #606060;text-align: center;font-size: 1.5rem;padding-top: 78%}
+/*VideoPlay*/
+.videoplay_header{background: #19adb9}
+.videoplay_header span{margin:0 4%;font:2rem/5.4rem "微软雅黑";color: white}
+.videoplay_header span i{color:#fff;}
+
+/*忘记密码*/
+.fgpd_title{width:100%;}
+.fgpd_title .top{background:#19adb9;height:5.4rem;border-top:1px solid #addee2;border-bottom:1px solid #addee2;}
+.fgpd_title .top span{margin:0 4%;font:2rem/5.4rem "微软雅黑";color:#fff;}
+.fgpd_title .top a{font:2rem/5.4rem "微软雅黑";color:#fff}
+.fgpd_title .cont{position:relative;width:100%;background:#f7f7f7;padding:0.95rem 0 7.45rem;}
+.fgpd_title .cont button{color:#fff;width:29.5%;height:2.8rem;background:#addfe3;border-radius: 2.8rem;position: absolute;right:6.25%;top:8.3rem}
+.fgpd_title .cont input{padding-left:5.6%;color:#606060;width:92%;height:5.3rem;background:#fff;margin:0 4% 0.8rem;border-radius: 0.25rem;font-size:1.7rem;}
+.fgpd_title .cont .one{margin-bottom:1.2rem;}
+.fgpd_title .cont p{margin-left:9.4%;font-size:1.4rem;color:#606060;line-height:1.4rem;}
+.fgpd_title .but{width:100%;background:#f7f7f7;}
+.fgpd_title .but button{color:#fff;width:91%;height:4.4rem;background:#addfe3;margin:0 4% 17.15rem;border-radius: 4.4rem;font-size:1.7rem;}
+
+/*进入登录*/
+
+.enter{width:100%;height:100%;background:black;border:1px solid #8c9091;border-top:0;}
+.enter .pic{width:20.4%;padding-top:8.35rem;margin-left:39.1%;}
+.enter .pic img{border-radius:50%;width:100%;}
+.enter form{width:87.3%;margin:0 6.1%;padding-top:4.25rem;position:relative;}
+.enter form input {margin-left:10%;width:89.7%;padding:0.3rem 0 0.3rem 3.4%;height:1.7rem;font-size:1rem;border-bottom:1px solid #7c838d;color: white}
+.enter form .one{margin-bottom:2.7rem;}
+.enter form .ico_one{position:absolute;left:0;top:4.25rem;font-size:2rem;}
+.enter form .ico_two{position:absolute;left:0;top:8.55rem;font-size:2rem;}
+.enter .but{width:87.3%;margin:0 6.1%;padding-top:4.05rem;height:7.5rem;}
+.enter .but button{height:3.2rem;line-height:3.2rem;width:99%;color:#f7f8fa;border:2px solid #23a5b2;border-radius:1.7rem;}
+.enter p{padding:0.8rem 0 10.85rem;color:#5f6064;margin-left:42%;font-size:1rem;}
+.enter form .icon{color:#18a9ac;}
+
+/*ipad展示*/
+.ipad{width:100%;background:#19adb9;}
+.ipad span{margin:0 4%;font:2rem/3.65rem "微软雅黑";color:#fff;height:3.65rem; }
+.ipad .ipad_pic{border-bottom:0.2rem solid #fff;margin:0 1% 0 1.7%;box-shadow:0.2rem 0.15rem 0 rgba(124,130,164,0.7); }
+.ipad .ipad_pic img{width:100%;}
+
+/*点击登录*/
+.log_title{width:100%;}
+.log_title .top{background:#19adb9;height:5.4rem;border-top:1px solid #addee2;border-bottom:1px solid #addee2;}
+.log_title .top span{margin:0 4%;font:2rem/5.4rem "微软雅黑";color:#fff;}
+.log_title .top a{font:2rem/5.4rem "微软雅黑";color:#fff}
+.log_title .cont{width:100%;background:#f7f7f7;padding:0.95rem 0 3.65rem;}
+.log_title .cont input{padding-left:2.9%;color:#606060;width:88.1%;height:5.3rem;background:#fff;margin:0 4%;border-radius: 0.25rem;font-size:1.7rem;}
+.log_title .cont .one{margin-bottom:0.8rem;}
+.log_title .but{width:100%;background:#f7f7f7;}
+.log_title .but button{color:#fff;width:91%;height:4.4rem;background:#addfe3;margin:0 4%;border-radius: 4.4rem;font-size:1.7rem;}
+.log_title .text{background:#f7f7f7;color:#606060;line-height:6.5rem;text-align: center;font-size:1.4rem;padding-bottom:25rem;}
+
+
+/*个人五星作品*/
+.personD_main{width:100%;background:#19adb9;}
+.personD_main span{margin:0 4%;font:2rem/5.3rem "微软雅黑";color:#fff;height:5.3rem; }
+.personD_main .pic{width:100%;padding-top:56.4rem;position: relative;}
+.personD_main .pic img{width:100%;}
+.personD_main .pic .pic_one{width:94%;position:absolute;left:2.08%;top:4rem;}
+.personD_main .pic .pic_one .pic_two{width:47.9%;position:absolute;left:28.5%;top:-3rem;}
+.personD_main .pic .pic_one .portrait{width:13.82%;position: absolute;left:44.4%;top:47%;border:5px solid #fff;border-radius:50%;}
+.personD_main .pic .pic_one a{position: absolute;left:32%;top:81.4%;font-size:1.7rem;color:#fff;}
+.personD_main .pic .mid{width:93.6%;position:absolute;left:3.08%;top:5.5rem;}
+
+/*李雷个人成绩展示*/
+.score {width: 100%;position: relative;}
+.score_bg img {width: 100%}
+.score .score_info {position: absolute;top: 10%;left: 28%;width: 52%;}
+.score_info h3 {font-size: 3.4rem;margin-left: 20%;color: #556889;font-weight: 900;}
+.score_info p{margin-left: 10%;}
+.score_info span {font-size: 1rem;line-height: 3rem;}
+.score_info i {font-size: 4rem;color: green;margin: 0 1.3rem;font-weight: 900;}
+.score_share {width: 43%;position: absolute;left: 1.7rem;bottom: 6rem;}
+.score_share img {width: 100%}
+.score_share1 {width: 43%;position: absolute;right: 1.3rem;bottom: 6rem;}
+.score_share1 img {width: 100%}
+.score_ion img {position: absolute;bottom: 12%;left: 16%;width: 7%;}
+.score_ion span {position: absolute;bottom: 13%;left: 26%;font-size: 1.6rem;color: white;}
+.score_ion1 img {position: absolute;bottom: 12%;right: 28%;width: 7%;}
+.score_ion1 span {position: absolute;bottom: 13%;right: 17%;font-size: 1.6rem;color: white;}
+.score_shadow {width: 18rem;height: 7rem;background: black;opacity: 0.5;position: absolute;top: 21rem;left: 7rem;border-radius: 0.7rem;color: white;text-align: center;line-height: 7rem;font-size: 3rem}
+.score_share_shadow {background-color: rgba(0, 0, 0, 0.8);position: fixed;z-index: 1;width: 100%;height: 100%;}
+.score_share2 {position: absolute;top: 38%;left: 14%;z-index: 10;width: 74%;}
+.score_share2 img {width: 100%;}
+.score_share2 h1 {position: absolute;top: 9%;left: 38%;z-index: 10;font-size: 2.4rem;}
+.score_share2 h3{ position: absolute; top: 81%;left: 43%;z-index: 10;font-size: 2rem;color: white;}
+.score_share3 ul li {float: left}
+.score_share3 ul {position: absolute;top: 34%;width: 97%;}
+.score_share3 ul li {width: 21%;text-align: center;margin-left: 3%;font-size: 1rem;}
+.score_share3 ul li span {margin: 9.1% 0;display: inherit;}
+
+/*职业素质分95*/
+.workerScore{width: 100%;}
+.ws_top {background: #19adb9;height: 5.5rem;}
+.ws_top span{margin:0 4%;font:2rem/5.4rem "微软雅黑";color: white}
+.ws_top span i{color:#fff;}
+.ws_img{width: 100%;background: #f4f5f6;padding-top: 3%;padding-bottom: 10%;}
+.ws_img .ws_score{width: 45%;margin: 10% 29%;position: relative}
+.ws_img .ws_score img{width: 100%}
+.ws_score i{position: absolute; top: 29%;left: 38%;font-size: 4rem;color: #57d1ae;}
+.ws_score span{position: absolute;top: 51%;width: 59%;left: 24%;font-size: 1rem;text-align: center;color: #57d1ae;}
+.ws_title{height: 13.6%;margin:0 9%;display: flex;justify-content: space-between}
+.ws_title i{font-size: 1.7rem;padding: 10% 0;}
+.ws_detail{display: flex;justify-content: space-between;padding: 0 1.5rem;line-height: 6rem;font-size: 1.4rem;border-top: 1px grey solid}
+.ws_detail p{display:initial}
+
+/**我的成绩**/
+
+.grade-header{
+ height: 31.388889%;
+ padding-left: 4.166667%;
+ position: relative;
+}
+.grade-tx{
+ width: 23.694444%;
+ padding-top: 6.944444%;
+ padding-right: 6.25%;
+ padding-bottom: 8.333333%;
+ float: left;
+}
+.grade-tx img{width: 100%;height: 100%;}
+.grade-info{
+ float: left;
+ width: 73.8%;
+ position: absolute;
+ left: 26.111111%;
+ top: 14.3%;
+}
+.grade-fast{
+ margin-left: 0.8rem;
+ display: inline-block;
+ height: 1.9rem;
+ width: 30.6391%;
+ background: #19adb9;
+ border-radius: 0.8rem;
+ font-size: 1.2rem;
+ line-height: 1.9rem;
+ text-align: center;
+ color: #d5f3eb;
+}
+.grade-title{
+ background:url("../images/我的成绩-(1)_07.png") no-repeat 4.444444% 50% #f4fcfe;
+ background-size: 5.5555556%;
+ padding-left: 13.333333%;
+ font-size: 1.3rem;
+ color: #707070;
+ line-height: 3rem;
+ border-bottom: 0.05rem solid #def6f2;
+ font-weight: 500;
+}
+.grade{
+ height: 61.25%;
+
+}
+.grade .grade-quxian-bg{
+ height: 15.3rem;
+ width: 100%;
+ background: url("../images/形状-8.png") no-repeat left center #f4fcfe;
+ background-size: 100% 80%;
+ background-position: bottom;
+ position: relative;
+}
+
+.grade .grade-quxian li{
+ float: left;
+ width: 18%;
+ text-align: center;
+ color: #29c498;
+ font-size: 1rem;
+}
+.grade .grade-quxian li:nth-child(1){
+ position: absolute;
+ top: 55%;
+ left: 2%;
+}
+.grade .grade-quxian li:nth-child(2){
+ position: absolute;
+ top: 45%;
+ left: 21%;
+}
+.grade .grade-quxian li:nth-child(3){
+ position: absolute;
+ top: 45%;
+ left: 41%;
+}
+.grade .grade-quxian li:nth-child(4){
+ position: absolute;
+ top:3%;
+ left: 61%;
+}
+.grade .grade-quxian li:nth-child(5){
+ position: absolute;
+ top: 55%;
+ left: 82%;
+}
+.grade-week{
+ height: 4.444444%;
+ background: #2ac598;
+}
+.grade-week li{
+ float: left;
+ font-size: 1rem;
+ line-height: 1.6rem;
+ color: #d4f3ea;
+ width: 19.777778%;
+ text-align: center;
+
+}
+.grade-quality{
+ height: 22.083333%;
+ background: url("../images/我的成绩-(1)_10.png") no-repeat 4.444444% 15.625% #f7f7f7;
+ background-size: 5.5555556%;
+}
+.grade-quality span{
+ margin-left: 13.333333%;
+ padding-top: 3%;
+ display: block;
+ font-size: 1.3rem;
+ color: #606060;
+ font-weight: 500;
+}
+.grade-quality .grade-Progress-bg{
+ width: 91.666667%;
+ height: 1.8rem;
+ background: #efefef;
+ border-radius: 0.75rem;
+ margin-top: 4%;
+ margin-bottom: 5.6%;
+ margin-left: 4.166667%;
+ position: relative;
+}
+.grade-quality .grade-Progress-bg:after{
+ content: "";
+ height: 1.8rem;
+ width: 87.222222%;
+ background-image: -webkit-linear-gradient(left,#2cc599,#75c7ef);
+ background-image: -moz-linear-gradient(left,#2cc599,#75c7ef);
+ border-radius: 0.75rem;
+ position: absolute;
+ left: 0;
+ top: 0;
+}
+.grade-surpass{
+ height: 63.611111%;
+}
+.grade-surpass .grade-surpass-bg{
+ height: 18.75rem;
+ background: url("../images/我的超越_05.png") no-repeat left center;
+ background-size: 100% 100%;
+ background-position: top;
+ color: #fff;
+ font-size: 1.3rem;
+}
+.grade-surpass .grade-surpass-bg>div{
+ line-height: 3rem;padding-left: 12%;background: url("../images/我的成绩_21.png") no-repeat 4.444444% 45%;background-size: 5.5555556%;border-bottom: 0.1rem solid #34bd93;
+}
+.grade-surpass .grade-top{
+ height: 5rem;
+ padding-top: 2rem;
+ background: #2ea796;
+ padding-left: 46.666667%;
+}
+.grade-surpass .grade-top img{
+ width: 13.020833%;
+}
+
+/*校园广播通知详情*/
+.details-header{
+ height: 5.5rem;
+ background: #19adb9;
+ font-size: 2rem;
+ line-height:5.5rem ;
+ color: #fff;
+}
+.details-header span{margin:0 4%;font:2rem/5.4rem "微软雅黑";color: white}
+.details-header span i{color:#fff;}
+.details-title{
+ height: 3.95rem;
+ padding-top: 3.75rem;
+ padding-bottom: 5.25rem;
+ border-bottom: 0.05rem solid #f3f2f2;
+ padding-left: 4.444444%;
+ padding-right: 5%;
+ position: relative;
+}
+
+.details-title h3{
+ font-weight: normal;
+ font-size: 1.7rem;
+ float: left;
+ display: inline-block;
+}
+.details-content{
+ color: #606060;
+}
+.details-content p{
+ padding-left: 4.444444%;
+ padding-right: 5%;
+ text-indent: 2em;
+ font-size: 1.4rem;
+ line-height: 2.45rem;
+}
+.details-title p{
+ font-size: 1.25rem;
+ position: absolute;
+ top: 5.7rem;
+ padding: 0;
+ text-indent: 0;
+}
+.details-title span{
+ float: right;
+ color: #19adb9;
+ font-size: 1.4rem;
+ line-height: 3.95rem;
+}

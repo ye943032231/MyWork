@@ -1,0 +1,55 @@
+<ion-view>
+    <div class="activenews">
+        <div class="score_share_shadow" ng-show="alertOff"></div>
+        <div class="an_top">
+            <span ui-sref="tab.activenews"><a><i class="ion-chevron-left"></i></a>&nbsp;活动通知</span>
+            <div class="an_share"><img src="images/分享_03.png" ng-click="topOff()"></div>
+        </div>
+
+        <div class="an_cont">
+            <div class="at_boat"><img src="images/boat.png"></div>
+            <div class="at_cont">
+                <div class="at_desc">
+                    <h3>海报创意设计</h3>
+
+                    <p>海子团队讲解想法，带你开拓思维与想法</p>
+
+                    <div class="at_local">
+                        <img src="images/定位.png">
+                        <span>火星时代　杏石口路81号</span>
+                    </div>
+                    <div class="at_time">
+                        <img src="images/时间.png">
+                        <span>2015-05-05 06:18</span>
+                    </div>
+                </div>
+                <div class="at_small_desc">
+                    <h3>简介</h3>
+                    <p>海子团队讲解想法，带你开拓思维与想法</p>
+                    <p>地址:北京海淀区杏石口路81号　火星时代</p>
+                    <p>时间:2016.06.15  16:00-18:30</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="score_share2" ng-show="alertOff">
+            <img src="images/卡片上_03.png" style="width: 100%;height: 86%">
+            <img src="images/卡片底_03.png" style="width: 100%;height: 16%" ng-click="topOff()">
+
+            <h3 ng-click="topOff()">取消</h3>
+
+            <h1>分享到</h1>
+
+            <div class="score_share3 clearfix">
+                <ul>
+                    <li><img src="images/微信.png"><span>微信好友</span></li>
+                    <li><img src="images/新浪.png"><span>新浪微博</span></li>
+                    <li><img src="images/朋友圈.png"><span>朋友圈 </span></li>
+                    <li><img src="images/连接.png"><span>获取连接</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</ion-view>
+
